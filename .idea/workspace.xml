@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="875a3fd7-05fc-4e75-a491-93501f24da79" name="Changes" comment="" />
+    <list default="true" id="875a3fd7-05fc-4e75-a491-93501f24da79" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/etcd/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/etcd/go.mod" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

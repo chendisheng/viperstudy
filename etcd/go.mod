@@ -1,4 +1,4 @@
-module github.com/chendisheng/gostudy/etcd
+module github.com/chendisheng/viperstudy/etcd
 
 go 1.17
 
