@@ -1,0 +1,7 @@
+
+[app]
+  consumer = "first.toml.com:9092"
+  env = "development"
+  name = "DefaultName"
+  producer = "second.toml.com:9092"
+  timeout = "30s"

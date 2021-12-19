@@ -1,0 +1,6 @@
+app:
+  env: "development"
+  consumer: "first.yaml.com:9092"
+  producer: "second.yaml.com:9092"
+  Timeout: "30s"
+

@@ -1,0 +1,8 @@
+{
+  "app": {
+    "env":  "testing2",
+    "consumer": "fisrt.json.com:9092",
+    "producer": "second.json.com:9092",
+    "timeout": "30s"
+  }
+}
