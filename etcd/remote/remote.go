@@ -33,10 +33,8 @@ func (c *Config) Get(rp viper.RemoteProvider) (io.Reader, error) {
 func (c *Config) Watch(rp viper.RemoteProvider) (io.Reader, error) {
 	c.verify(rp)
 	c.RemoteProvider = rp
-
 	return c.get()
 }
-
 func (c *Config) WatchChannel(rp viper.RemoteProvider) (<-chan *viper.RemoteResponse, chan bool) {
 	c.verify(rp)
 	c.RemoteProvider = rp

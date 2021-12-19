@@ -1,4 +1,4 @@
-package example
+package main
 
 import (
 	"context"
@@ -31,6 +31,8 @@ func main() {
 
 	//initEtcdKeys()
 	//
+
+	viper.RemoteConfig = &remote.Config{}
 	vpr := viper.New()
 
 	must(vpr.AddRemoteProvider("etcd", os.Getenv("ETCD_ADDR"), "/testconfig"))
@@ -44,6 +46,8 @@ func main() {
 			must(vpr.WatchRemoteConfig())
 		}
 	}()
+
+	vpr.WatchRemoteConfigOnChannel()
 
 	//for {
 	//	spew.Dump(vpr.AllSettings())
